@@ -4,6 +4,7 @@ echo $curdir
 
 git clone https://github.com/EvdH0/poreFUME
 cd poreFUME
+git checkout f19794399f5bb6f205f1b4ef8b3f14a0c3aa9421
 install.sh
 source env.sh
 
