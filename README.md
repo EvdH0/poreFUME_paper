@@ -3,7 +3,7 @@ This repo allows to reproduce the analysis in the poreFUME paper.
 Run ```run.sh``` to setup the analysis, this will:
 
 1.  Clone into [poreFUME](https://github.com/EvdH0/poreFUME).
-2.  Download the [input nanopore, PacBio and Sanger sequence data files](http://www.student.dtu.dk/~evand/poreFUME_data/poreFUME_paper_data.tar.gz)
+2.  Download the [input nanopore, PacBio and Sanger sequence data files](http://www.student.dtu.dk/~evand/poreFUME_data/poreFUME_paper_data.tar.gz) and [raw nanopore data from ENA](http://www.ebi.ac.uk/ena/data/view/PRJEB14994)
 3.  Download the [processed data files by poreFUME](http://www.student.dtu.dk/~evand/poreFUME_data/poreFUME_paper_OUTPUT.tar.gz), these are not strictly necessary, but allow the user to skip the poreFUME pipeline itself
 4.  Run ```install.sh``` of [poreFUME](https://github.com/EvdH0/poreFUME) which takes care of the [daligner](https://github.com/thegenemyers/DALIGNER), [DAZZ_DB](https://github.com/thegenemyers/DAZZ_DB), [POA](http://sourceforge.net/projects/poamsa/), [nanocorrect](https://github.com/jts/nanocorrect) dependencies.
 
